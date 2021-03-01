@@ -6,7 +6,7 @@ class Human(Player):
     def choose_gesture(self):
         self.print_options()
         gesture_number = self.gather_input_from_user()
-        self.chosenGesture = self.gestures[gesture_number - 1]
+        self.chosen_gesture = self.gestures[gesture_number - 1]
 
     def print_options(self):
         print('Please choose from the following gestures')
