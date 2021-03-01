@@ -1,5 +1,12 @@
 from game import Game
+from human import Human
+from computer import Computer
 
-playGame = Game()
+human = Human()
 
-playGame.decide_number_of_rounds()
+human.choose_gesture()
+print(human.chosenGesture)
+
+computer = Computer()
+computer.choose_gesture()
+print(computer.chosenGesture)
